@@ -1,0 +1,101 @@
+ /* Ensure full height and proper layout */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Fira Code", monospace;
+  background-color: #1e1e1e;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main container layout */
+main {
+  height: 90vh; /* Adjusted for better layout */
+  width: 95%;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+/* Left and right sections */
+main .left,
+main .right {
+  height: 100%;
+  flex-basis: 50%;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+}
+
+main .left {
+  background-color: black;
+  position: relative;
+}
+
+/* Code editor section */
+main .left .code {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #444;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Review Button */
+main .left .button {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  border: 2px solid white;
+  padding: 0.5rem 1rem;
+  background-color: aliceblue;
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+main .left .button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Markdown Response Section */
+main .right {
+  background-color: #343434;
+  overflow-y: auto;
+  border: 1px solid #444;
+  padding: 1rem;
+  word-wrap: break-word;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    height: auto;
+  }
+  
+  main .left, 
+  main .right {
+    flex-basis: auto;
+    width: 100%;
+  }
+  
+  main .left .button {
+    position: relative;
+    width: fit-content;
+    margin-top: 1rem;
+  }
+}
+Markdown {
+  height : 100% 
+  width-auto 
+}
