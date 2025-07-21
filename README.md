@@ -24,7 +24,7 @@ A web application that reviews, analyzes, and provides feedback on code.
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/your-username/AI-Code-Reviewer.git
+   git clone https://github.com/mr-rishikesh/AI-Code-Reviewer.git
    cd AI-Code-Reviewer
    ```
 
@@ -35,13 +35,13 @@ A web application that reviews, analyzes, and provides feedback on code.
 
 3. **Start the backend server**  
    ```bash
-   cd server
+   cd backend
    node index.js
    ```
 
 4. **Start the frontend**  
    ```bash
-   cd client
+   cd frontend
    npm start
    ```
 
