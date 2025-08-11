@@ -26,26 +26,25 @@ A web application that reviews, analyzes, and provides feedback on code.
    ```bash
    git clone https://github.com/mr-rishikesh/AI-Code-Reviewer.git
    cd AI-Code-Reviewer
+   
    ```
 
-2. **Install dependencies**  
-   ```bash
-   npm install
-   ```
 
-3. **Start the backend server**  
+2. **Start the backend server**  
    ```bash
    cd backend
-   node index.js
+   npm install
+   npm run dev
    ```
 
-4. **Start the frontend**  
+3. **Start the frontend**  
    ```bash
    cd frontend
-   npm start
+   npm install
+   npm run dev
    ```
 
-5. **Access the app**  
+4. **Access the app**  
    Open [http://localhost:3000](http://localhost:3000) in your browser.  
 
 ## Future Enhancements 🚀  
