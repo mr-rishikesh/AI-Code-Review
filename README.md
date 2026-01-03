@@ -27,7 +27,7 @@ An AI-powered code review application that provides instant feedback on code qua
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/ai-code-reviewer.git
+git clone https://github.com/mr-rishikesh/AI-Code-Review.git
 cd ai-code-reviewer
 ```
 
