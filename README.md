@@ -138,11 +138,4 @@ app.use(cors({
 
 MIT License - see [LICENSE](LICENSE) file for details.
 
-## Support
 
-- **Issues:** [GitHub Issues](https://github.com/yourusername/ai-code-reviewer/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/yourusername/ai-code-reviewer/discussions)
-
----
-
-Made with ❤️ using React and Groq AI
