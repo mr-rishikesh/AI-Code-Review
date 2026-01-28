@@ -36,7 +36,7 @@ function App() {
     setReview(`# 🔍 Analyzing your code... \n\n Please wait For few Seconds  while our AI examines and gives feeback to  your code for:\n- Syntax errors\n- Logic issues\n- Performance optimizations\n- Best practices\n- Security vulnerabilities`)
     
     try {
-      const response = await axios.post('http://localhost:3000/ai/get-response', { code }, {
+      const response = await axios.post('https://ai-code-review-4-apjs.onrender.com/ai/get-response', { code }, {
         headers: {
           "Content-Type": "application/json"
         }
